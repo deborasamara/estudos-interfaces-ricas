@@ -1,6 +1,6 @@
 import type {JestConfigWithTsJest} from 'ts-jest';
 
-const config: JestConfigWithTsJest = {
+const JestConfigWithTsJest: JestConfigWithTsJest = {
     preset: 'ts-jest',
     collectCoverage: true,
     coverageDirectory: "coverage",
