@@ -1,6 +1,5 @@
 
-
-const fatorial = require('./fatorial');  
+import fatorial from './fatorial';
 
 // teste 1 - numero negativo
 test('Fatorial de número negativo não deve ser aceito', () => {
