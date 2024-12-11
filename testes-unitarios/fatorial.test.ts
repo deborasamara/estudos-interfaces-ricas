@@ -1,10 +1,12 @@
+
+
 const fatorial = require('./fatorial');  
 
 // teste 1 - numero negativo
 test('Fatorial de número negativo não deve ser aceito', () => {
     expect(() => {
-        fatorial(0);
-      }).toThrow();
+        fatorial(-10);
+      }).toThrow("n deve ser maior ou igual a zero");
 });
 
 // teste 2 - numero 1 (positivo)
