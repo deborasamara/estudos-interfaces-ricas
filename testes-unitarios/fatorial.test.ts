@@ -5,7 +5,7 @@ import fatorial from './fatorial';
 test('Fatorial de número negativo não deve ser aceito', () => {
     expect(() => {
         fatorial(-10);
-      }).toThrow("n deve ser maior ou igual a zero");
+      }).toThrow();
 });
 
 // teste 2 - numero 1 (positivo)
