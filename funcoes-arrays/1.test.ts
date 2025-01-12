@@ -2,7 +2,7 @@
 1.1 Escreve um teste com o array [3,5,7,3,8,9,1]
 */
 
-import { forSimples, forForeach } from "./1.js";
+import { forSimples, forForeach } from "./1";
 // [3,5,7,3,8,9,1]
 // test do for simples
 test('for simples',()=>{

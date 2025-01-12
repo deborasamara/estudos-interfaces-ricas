@@ -1,7 +1,7 @@
 /**
 2.1 Escreva um teste com o array [‘Arrays’, ‘com’, ‘TypeScript’]
  */
-import { concatenaArray } from "./2.js";
+import { concatenaArray } from "./2";
 
 test('Concatenação de Arrays',()=>{
     const array_palavras = ["Arrays", "com", "Typescript"];
