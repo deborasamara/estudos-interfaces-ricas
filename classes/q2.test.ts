@@ -1,4 +1,4 @@
-import { Gato, Vaca, Mamifero } from "./q2.js";
+import { Gato, Vaca, Mamifero } from "./q2";
 
 test('Teste da classe gato', () =>{
     const gato = new Gato('5', 'Preto', true);

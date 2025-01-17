@@ -1,4 +1,4 @@
-import { Vaca, Sapo } from "./q1.js";
+import { Vaca, Sapo } from "./q1";
 
  test('Teste da classe sapo', ()=>{
     const sapo = new Sapo('0.1m', 'Anfibio');
