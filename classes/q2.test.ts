@@ -5,8 +5,7 @@ test('Teste da classe gato', () =>{
     gato.anosDeVida = '7';
     expect(gato.anosDeVida).toBe('7');
 
-    Mamifero.infosDoBicho(gato);
-
+    expect(Mamifero.infosDoBicho(gato)).toBe('esse mamifero tem 7 anos de vida e tem cor Preto')
 
 })
 
@@ -15,6 +14,6 @@ test('Teste da classe vaca', () =>{
     vaca.anosDeVida = '8';
     expect(vaca.anosDeVida).toBe('8');
 
-    Mamifero.infosDoBicho(vaca);
+    expect(Mamifero.infosDoBicho(vaca)).toBe('esse mamifero tem 8 anos de vida e tem cor Colorida')
     
 })

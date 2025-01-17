@@ -15,11 +15,11 @@ export abstract class Mamifero{
         this.cor = cor;
     }
 
-    abstract emitirSom(): void;
+    abstract emitirSom(): string;
 
-    static infosDoBicho(mamifero: Mamifero):void{
+    static infosDoBicho(mamifero: Mamifero):string{
         console.log(`esse mamifero tem ${mamifero.anosDeVida} anos de vida e tem cor ${mamifero.cor}`);
-        mamifero.emitirSom();
+        return mamifero.emitirSom()
     }
 
 }
@@ -32,8 +32,8 @@ export class Gato extends Mamifero{
         this.castrado = castrado;
     }
 
-    emitirSom(): void {
-        console.log("Miau!")
+    emitirSom(): string {
+        return "Miau!"
     }
 }
 
@@ -45,8 +45,8 @@ export class Vaca extends Mamifero{
         this.estaChipada = estaChipada;
     }
 
-    emitirSom(): void {
-        console.log("Muuuuuuuu!!");
+    emitirSom(): string {
+        return "Muuuuuuuu!";
     }
     
 }
