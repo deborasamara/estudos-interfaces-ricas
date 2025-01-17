@@ -19,7 +19,7 @@ export abstract class Mamifero{
 
     static infosDoBicho(mamifero: Mamifero):string{
         //console.log(`esse mamifero tem ${mamifero.anosDeVida} anos de vida e tem cor ${mamifero.cor}`);
-        return "esse mamifero tem ${mamifero.anosDeVida} anos de vida e tem cor ${mamifero.cor}";
+        return `esse mamifero tem ${mamifero.anosDeVida} anos de vida e tem cor ${mamifero.cor}`;
     }
 
 }
